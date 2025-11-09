@@ -218,4 +218,5 @@ fprintf('| Method         | Rel Error | PSNR (dB) | Trace CC |\n');
 fprintf('|----------------|-----------|-----------|----------|\n');
 fprintf('| Proposed       | %.6f     | %.2f      | %.3f     |\n', error_this, psnr_this, cc_this);
 fprintf('| AK-POCS        | %.6f     | %.2f      | %.3f     |\n', error_akpocs, psnr_akpocs, cc_akpocs);
+
 fprintf('=========================================\n');
